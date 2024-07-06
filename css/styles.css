@@ -38,8 +38,7 @@ img {
 
 .container {
      max-width: 1158px;
-     padding-left: 15px;
-     padding-right: 15px;
+     padding: 0 15px;
      margin: 0 auto;
 }
 
@@ -60,7 +59,6 @@ img {
      text-transform: uppercase;
      color: #4d5ae5;
      margin-right: 76px;
-     margin-bottom: 16px;
 }
 
 .header-logo-part {
