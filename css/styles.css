@@ -108,7 +108,7 @@ img {
      padding-bottom: 188px;
 }
 
-.header-nav-iteam {
+.header-nav-item {
      padding: 24px 0;
      gap: 40px;
 }
@@ -249,8 +249,9 @@ img {
      margin-bottom: 8px;
 }
 
-.main-iteam {
+.main-item {
      background-color: #ffffff;
+     width: calc((100% - 72px) / 4);
 }
 
 .man {
