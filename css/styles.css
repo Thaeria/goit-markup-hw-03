@@ -194,7 +194,7 @@ img {
      margin: 0 auto;
      min-width: 169px;
      height: 56px;
-     border-radius: 0px 0px 4px 4px;
+     border-radius: 4px;
 }
 
 .main-btn:hover,
@@ -282,6 +282,7 @@ css/styles.css.name-third {
      display: flex;
      gap: 48px 24px;
      flex-wrap: wrap;
+     border-radius: 0px 0px 4px 4px;
 }
 
 .bottom {
