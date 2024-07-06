@@ -36,13 +36,9 @@ img {
      text-transform: capitalize;
 }
 
-.header-container {
-     padding: 0 15px 0 15px;
-}
-
 .container {
      max-width: 1158px;
-     padding: 0 15px 0 15px;
+     padding: 0 15px;
      margin: 0 auto;
 }
 
@@ -71,7 +67,6 @@ img {
 
 .footer-logo-part {
      color: #f4f4fd;
-     margin-bottom: 16px;
 }
 
 .header-nav-link {
