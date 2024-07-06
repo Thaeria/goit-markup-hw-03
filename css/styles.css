@@ -38,7 +38,7 @@ img {
 
 .container {
      max-width: 1158px;
-     padding: 0 15px;
+     padding: 0 15px 0 15px;
      margin: 0 auto;
 }
 
@@ -351,4 +351,16 @@ css/styles.css.name-third {
      display: flex;
      max-width: 264px;
      margin-bottom: 8px;
+}
+
+.footer-logo {
+     font-family: "Raleway", sans-serif;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: #4d5ae5;
+     margin-right: 76px;
+     margin-bottom: 16px;
 }
