@@ -46,10 +46,6 @@ img {
      border-bottom: 1px solid #e7e9fc;
 }
 
-.header {
-     padding: 0 15px 0 15px;
-}
-
 .header-logo {
      font-family: "Raleway", sans-serif;
      font-weight: 700;
@@ -59,7 +55,6 @@ img {
      text-transform: uppercase;
      color: #4d5ae5;
      margin-right: 76px;
-     margin-bottom: 16px;
 }
 
 .header-logo-part {
@@ -77,12 +72,12 @@ img {
      letter-spacing: 0.02em;
      color: #2e2f42;
      padding: 24px 0 24px 0;
+     display:block;
 }
 
 .header-nav {
      display: flex;
      align-items: center;
-     gap: 40px;
 }
 
 .header-nav-list {
@@ -108,8 +103,6 @@ img {
 }
 
 .header-nav-item {
-     padding: 24px 0;
-     gap: 40px;
 }
 
 .header-nav-list {
@@ -118,8 +111,7 @@ img {
 
 .header-container {
      display: flex;
-     height: 72px;
-     padding: 0 15px;
+     align-items: center;
 }
 
 .contacts {
@@ -137,6 +129,8 @@ img {
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #434455;
+     padding: 24px 0 24px 0;
+     display: block;
 }
 
 .header-nav-link:hover,
@@ -221,8 +215,6 @@ img {
      letter-spacing: 0.02em;
      text-align: center;
      color: #2e2f42;
-     padding-top: 120px;
-     margin-bottom: 8px;
      margin-bottom: 72px;
 }
 
@@ -231,24 +223,36 @@ img {
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #434455;
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-size: 16px;
 }
 
 .main-list {
      display: flex;
      gap: 24px;
-     border-radius: 0px 0px 4px 4px;
 }
 
 .main-item-img {
-     width: calc((100% -72px) / 4);
-     border: 1px solid #e7e9fc;
+     width: calc((100% -48px) / 3);
+    
 }
 
 .name-third {
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color: #2e2f42;
      margin-bottom: 8px;
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     font-size: 20px;
 }
 
 .main-item {
+     width: calc((100% - 72px) / 4);
+}
+
+.main-itemm {
      background-color: #ffffff;
      width: calc((100% - 72px) / 4);
      border-radius: 0px 0px 4px 4px;
@@ -282,21 +286,29 @@ css/styles.css.name-third {
      display: flex;
      gap: 48px 24px;
      flex-wrap: wrap;
-     border-radius: 0px 0px 4px 4px;
 }
 
 .bottom {
      padding: 32px 16px;
 }
 
-.main-item-img {
-     width: 360px;
-     border-top: none;
+.name-third-img {
+     margin-bottom: 8px;
+     font-family: "Roboto", sans-serif;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 1.2;
+     letter-spacing: 0.02em;
+     color: #2e2f42;
 }
 
-.name-third-img {
-     padding-top: 32px;
-     margin-bottom: 8px;
+.tex-third-img {
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-size: 16px; 
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #434455;
 }
 
 .name-third-man {
@@ -309,21 +321,7 @@ css/styles.css.name-third {
      margin-bottom: 8px;
 }
 
-.tex-third-img {
-     padding: 32px 16px;
-     border-top: none;
-}
-
 .fourth-container {
-     padding-top: 120px;
-     padding-bottom: 120px;
-     border-top: none;
-     margin-bottom: 8px;
-}
-
-.name-third-img {
-     margin-top: 32px;
-     margin-left: 16px;
 }
 
 .tex-third-man {
@@ -332,7 +330,6 @@ css/styles.css.name-third {
      text-align: center;
      letter-spacing: 0.02em;
      color: #434455;
-     margin-bottom: 32px;
 }
 
 .footer {
@@ -349,9 +346,7 @@ css/styles.css.name-third {
 }
 
 .footer-tex {
-     display: flex;
      max-width: 264px;
-     margin-bottom: 8px;
 }
 
 .footer-logo {
@@ -362,6 +357,5 @@ css/styles.css.name-third {
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #4d5ae5;
-     margin-right: 76px;
      margin-bottom: 16px;
 }
